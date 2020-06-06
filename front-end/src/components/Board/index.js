@@ -16,7 +16,7 @@ const Board = () => {
     }, []);
 
     return (
-        <div className="board"> 
+        <div className="board">
             {tasksList.map(task => <Task key={task.id} data={task} />)}
         </div> 
     );

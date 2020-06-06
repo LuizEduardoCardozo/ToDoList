@@ -1,12 +1,18 @@
 .task {
 
-    
     box-shadow: 5px 1px 5px #111;
     margin-bottom: 15px;
 
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    transition: all 500ms;
+
+    &:hover {
+        box-shadow: 5px 1px 10px #111;
+        transform: scale(1.01);
+    }
 
     h1 {
         font-size: 25px;

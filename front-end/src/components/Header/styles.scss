@@ -1,10 +1,44 @@
 @import '../props.scss';
 
-header {
+.header {
     background-color: $main-blue;
     color: #eee;
     border-radius: $main-border-radius $main-border-radius 0 0 ;
     padding: 30px;
-    height: 150px;
+    min-height: 150px;
+    transition: all 1s;
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    div {
+        font-size: 30px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        flex-direction: column;
+        align-items: center;
+
+        a {
+            font-size:40px;
+            background-color: #0A0;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            border-radius: 25px;
+            align-items: center;
+            transition: all 500ms;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+
+        }
+
+    }
 
 }

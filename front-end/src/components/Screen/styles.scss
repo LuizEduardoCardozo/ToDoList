@@ -6,4 +6,5 @@
     width: $width;
     min-height: calc( 100vh - #{($my_screen * 2)}px );
     border-radius: $main-border-radius;
+    box-shadow: 10px 5px 25px #3c3c3c;
 }

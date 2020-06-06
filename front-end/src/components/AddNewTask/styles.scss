@@ -1,0 +1,30 @@
+.addNew {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    height: 45px;
+    margin-top: 15px;
+}
+
+select {
+    width: 95%;
+    height: 45px;
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #0000dd;
+    color: #fff;
+    height: 45px;
+    width: 130px;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none!important;
+}
