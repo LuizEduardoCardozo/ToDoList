@@ -1,0 +1,9 @@
+@import '../props.scss';
+
+.screen {
+    background-color: #00d;
+    margin: #{$my_screen}px auto;
+    width: $width;
+    min-height: calc( 100vh - #{($my_screen * 2)}px );
+    border-radius: $main-border-radius;
+}

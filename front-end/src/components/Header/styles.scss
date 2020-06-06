@@ -1,0 +1,10 @@
+@import '../props.scss';
+
+header {
+    background-color: $main-blue;
+    color: #eee;
+    border-radius: $main-border-radius $main-border-radius 0 0 ;
+    padding: 30px;
+    height: 150px;
+
+}
